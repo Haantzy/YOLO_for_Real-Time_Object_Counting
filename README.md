@@ -1,7 +1,7 @@
-# Object Tracking using YOLOv3, Deep Sort and Tensorflow
-This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
+# Object Counting using YOLOv3, Deep Sort and Tensorflow
+This repository implements a modified version of theAIGuysCode/yolov3_deepsort, using YOLOv3 and DeepSORT in order to perfrom real-time object counting. 
 
-![Demo of Object Tracker](data/helpers/demo.gif)
+![Demo of Car Counter](data/helpers/demo.gif)
 
 ## Getting started
 
@@ -132,8 +132,9 @@ object_tracker.py:
     (default: 0.5)
     (a float)
 ```
-
-## Acknowledgments
+## Acknowledgments from Haantzy
+* [Object Tracking using YOLOv3, Deep Sort and Tensorflow](https://github.com/theAIGuysCode/yolov3_deepsort)
+## Orignial Acknowledgments
 * [Yolov3 TensorFlow Amazing Implementation](https://github.com/zzh8829/yolov3-tf2)
 * [Deep SORT Repository](https://github.com/nwojke/deep_sort)
 * [Yolo v3 official paper](https://arxiv.org/abs/1804.02767)
