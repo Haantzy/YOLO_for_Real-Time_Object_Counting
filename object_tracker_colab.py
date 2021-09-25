@@ -87,6 +87,7 @@ def main(_argv):
     
     while True:
         pbar.update(i)
+        i += 1
         _, img = vid.read()
 
         if img is None:
@@ -158,14 +159,10 @@ def main(_argv):
                     list_file.write(str(converted_boxes[i][0]) + ' '+str(converted_boxes[i][1]) + ' '+str(converted_boxes[i][2]) + ' '+str(converted_boxes[i][3]) + ' ')
             list_file.write('\n')
 
-        # press q to quit
-        if cv2.waitKey(1) == ord('q'):
-            break
     vid.release()
     if FLAGS.output:
         out.release()
         list_file.close()
-    cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
