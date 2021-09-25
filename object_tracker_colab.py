@@ -18,6 +18,9 @@ from deep_sort.tracker import Tracker
 from tools import generate_detections as gdet
 from PIL import Image
 
+from tqdm import tqdm
+from cv2 import CAP_PROP_FRAME_COUNT
+
 flags.DEFINE_string('classes', './data/labels/coco.names', 'path to classes file')
 flags.DEFINE_string('weights', './weights/yolov3.tf',
                     'path to weights file')
@@ -76,7 +79,14 @@ def main(_argv):
     
     fps = 0.0
     count = 0 
+    
+    #Progress Bar
+    i = 1
+    frame_count = int(vid.get(cv2.CAP_PROP_FRAME_COUNT))
+    pbar = tqdm(total = frame_count)
+    
     while True:
+        pbar.update(i)
         _, img = vid.read()
 
         if img is None:
