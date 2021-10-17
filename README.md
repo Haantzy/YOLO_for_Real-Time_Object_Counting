@@ -109,6 +109,22 @@ https://youtu.be/-nxE4Hfp454
 
 https://youtu.be/6HCCHouXkso
 
+https://youtu.be/9jd8_RIDBrs
+
+https://youtu.be/5imR5zJKTfo
+
+https://youtu.be/CrZX70ooBgw
+
+https://youtu.be/TqBn_9ykEW4
+
+https://youtu.be/HBoN4eCyB-I
+
+https://youtu.be/EJaguk7q47A
+
+https://youtu.be/Ho9M9I_596M
+
+https://youtu.be/cOfzBYeQNe0
+
 ## Acknowledgments from Haantzy
 * [Object Tracking using YOLOv3, Deep Sort and Tensorflow](https://github.com/theAIGuysCode/yolov3_deepsort)
 ## Orignial Acknowledgments
