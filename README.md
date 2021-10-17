@@ -88,7 +88,7 @@ python object_tracker_counter.py --video ./data/video/roundabout.mp4
 python object_tracker_counter.py --video ./data/video/roundabout.mp4 --weights ./weights/yolov3-tiny.tf --tiny
 ```
 
-## Check out these other videos demonstrating cars being counted from a variety of different locations
+## Check out these other videos I have already processed which demonstrate cars being counted from a variety of different locations
 https://youtu.be/BKKn6RA1LR4
 
 https://youtu.be/XEiYI8yzHVk
