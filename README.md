@@ -76,7 +76,7 @@ python load_weights.py
 python load_weights.py --weights ./weights/yolov3-tiny.weights --output ./weights/yolov3-tiny.tf --tiny
 ```
 
-After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object tracker.
+After executing one of the above lines, you should see proper .tf files in your weights folder. You are now ready to run object counter.
 
 ## Running the Object Counter
 Now you can run the object counter for whichever model you have created, pretrained, tiny, or custom.
