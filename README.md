@@ -88,8 +88,17 @@ python object_tracker_counter.py --video ./data/video/roundabout.mp4
 python object_tracker_counter.py --video ./data/video/roundabout.mp4 --weights ./weights/yolov3-tiny.tf --tiny
 ```
 
-## Check out these other videos demonstrating cars being counted from a variety of sources
-
+## Check out these other videos demonstrating cars being counted from a variety of different locations
+https://youtu.be/BKKn6RA1LR4
+https://youtu.be/XEiYI8yzHVk
+https://youtu.be/YGcHAGpK_08
+https://youtu.be/pj6Z4HwcCrI
+https://youtu.be/BtDQ3z9q8B0
+https://youtu.be/nt6iHNYrqLA
+https://youtu.be/7CBKSH7_80c
+https://youtu.be/c2kWriEdsBQ
+https://youtu.be/-nxE4Hfp454
+https://youtu.be/6HCCHouXkso
 
 ## Acknowledgments from Haantzy
 * [Object Tracking using YOLOv3, Deep Sort and Tensorflow](https://github.com/theAIGuysCode/yolov3_deepsort)
