@@ -1,9 +1,22 @@
 # Object Counting using YOLOv3, Deep Sort and Tensorflow
 This repository implements a modified version of theAIGuysCode/yolov3_deepsort, using YOLOv3 and DeepSORT in order to perfrom real-time object counting. 
 
-![Demo of Car Counter](data/helpers/demo.gif)
+![Demo of Car Counter](data/helpers/roundabout_Results.gif)
 
 ## Getting started
+
+#### Recommended setup and running by Haantzy
+```bash
+# Tensorflow GPU
+conda env create -f conda-gpu.yml
+conda activate tracker-gpu
+
+# yolov3
+wget https://pjreddie.com/media/files/yolov3.weights -O weights/yolov3.weights
+
+#While in the main foler
+python object_tracker_counter.py --video ./data/video/roundabout.mp4
+```
 
 #### Conda (Recommended)
 
@@ -132,6 +145,7 @@ object_tracker.py:
     (default: 0.5)
     (a float)
 ```
+
 ## Acknowledgments from Haantzy
 * [Object Tracking using YOLOv3, Deep Sort and Tensorflow](https://github.com/theAIGuysCode/yolov3_deepsort)
 ## Orignial Acknowledgments
